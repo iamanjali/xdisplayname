@@ -18,6 +18,7 @@ function DisplayName() {
 
   return (
     <>
+    <h1>Full Name Display</h1>
       <form onSubmit={handleSubmit}>
         First Name:
         <input type="text" name="fname" required />
